@@ -44,7 +44,9 @@ public class Friend {
 	}
 
 	
-	
+	public void showInfo() {
+		System.out.println("친구정보 출력"+name+hp+school);
+	}
 	
 	
 		
