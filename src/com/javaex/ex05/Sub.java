@@ -9,6 +9,8 @@ public class Sub {
     }
 
     public int calculate() {
+    	System.out.print("정답은 ");
+    	return (a-b);
     }
 
 }

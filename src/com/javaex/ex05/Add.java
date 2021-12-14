@@ -9,6 +9,8 @@ public class Add {
     }
 
     public int calculate() {
+    	System.out.print("정답은 ");
+    	return (a+b);
     }
 
 }
