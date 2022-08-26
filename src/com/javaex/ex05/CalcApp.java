@@ -20,15 +20,16 @@ public class CalcApp {
     	while (true) {
     		System.out.print(">>");
     		String cal = sc.nextLine();
+//    		Integer.parseInt([0],[2])
     		
-//    		계산식에 + - 특수문자를 골라내는 문법을 모르겠다.
-    		if (cal=="hi") {
-    			System.out.println("계산값");
-    		} else if (cal == "/q") {
-    			System.out.println("종료합니다.");
-    			break;
-    		} else {
-    			System.out.println("알 수 없는 연산입니다.");
+    		switch () {
+    			case '+' :
+    			case '-' :
+    				
+    			default : {
+    				System.out.println("잘못된 입력입니다");
+    			}
+    				
     		}
     	}
     	
@@ -37,3 +38,23 @@ public class CalcApp {
     	sc.close();
     }
 }
+
+
+
+
+
+/*
+while (true) {
+System.out.print(">>");
+String cal = sc.nextLine();
+
+if (cal=="hi") {
+	System.out.println("계산값");
+} else if (cal == "/q") {
+	System.out.println("종료합니다.");
+	break;
+} else {
+	System.out.println("알 수 없는 연산입니다.");
+}
+}
+*/
